@@ -1,0 +1,22 @@
+{
+    "name": "vlassiuk/yii2-auth",
+    "description": "Module allow do authenticate users by social networks accaunt, create users account, profiles, check access rights, etc",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","auth","OAuth2"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Sergey Vlassiuk",
+            "email": "vlassiuk@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-authclient": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "vlassiuk\\auth\\": "src"
+        }
+    }
+}
