@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist vlassiuk/yii2-auth "*"
+composer require vlassiuk/yii2-auth:dev-master
 ```
 
 or add
@@ -25,3 +25,4 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
+//TODO:
