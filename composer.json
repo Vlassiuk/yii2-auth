@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "vlassiuk\\auth\\": "src"
+            "vlassiuk\\auth\\": "src/"
         }
     }
 }
