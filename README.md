@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require vlassiuk/yii2-auth:dev-master
+composer require vlassiuk/yii2-auth
 ```
 
 or add

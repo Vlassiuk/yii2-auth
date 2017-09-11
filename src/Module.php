@@ -3,7 +3,7 @@
 namespace vlassiuk\auth;
 
 use yii\base\Event;
-use app\modules\auth\IEvents;
+use vlassiuk\auth\interfaces\IEvents;
 
 /**
  * auth module definition class
