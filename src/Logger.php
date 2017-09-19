@@ -23,17 +23,17 @@ class Logger extends \yii\base\Component
         Yii::info('check/login >> ' . $rez, __METHOD__);
     }
 
-    public static function onUserCreation(\app\modules\auth\events\UserCreationEvent $event)
+    public static function onUserCreation(\vlassiuk\auth\events\UserCreationEvent $event)
     {
         Yii::info('User created: ' . $event->user->getId(), __METHOD__);
     }
 
-    public static function onUserAccountCreation(\app\modules\auth\events\UserAccountCreationEvent $event)
+    public static function onUserAccountCreation(\vlassiuk\auth\events\UserAccountCreationEvent $event)
     {
         Yii::info('UserAccount Connect: ' , __METHOD__); // $event->getAccount()
     }
 
-    public static function onUserAccountConnection(\app\modules\auth\events\UserAccountConnectionEvent $event)
+    public static function onUserAccountConnection(\vlassiuk\auth\events\UserAccountConnectionEvent $event)
     {
         Yii::info('User created: ' , __METHOD__);
     }
