@@ -16,7 +16,7 @@ use Yii;
 class Logger extends \yii\base\Component
 {
 
-    public static function onBeforeLogin(\app\modules\auth\events\BeforeLoginEvent $event)
+    public static function onBeforeLogin(\vlassiuk\auth\events\BeforeLoginEven $event)
     {
         $rez = $event->canLogin ? 'can' : 'banned';
 
