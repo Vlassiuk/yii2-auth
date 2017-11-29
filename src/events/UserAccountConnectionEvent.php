@@ -26,7 +26,7 @@ class UserAccountConnectionEvent extends \yii\base\Event
      *
      * @param  $account
      */
-    public function setAccount(\vlassiuk\auth\interfacesh\IUserAccount $account)
+    public function setAccount(\vlassiuk\auth\interfaces\IUserAccount $account)
     {
         $this->account = $account;
     }

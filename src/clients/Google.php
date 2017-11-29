@@ -4,7 +4,7 @@
  * 
  */
 
-namespace vlassiuk\clients;
+namespace vlassiuk\auth\clients;
 
 use yii\authclient\clients\Google as YiiGoogle;
 use vlassiuk\auth\interfaces\IProfile;

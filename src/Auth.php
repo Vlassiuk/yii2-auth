@@ -9,6 +9,7 @@ namespace vlassiuk\auth;
 use Yii;
 use yii\base\Event;
 use vlassiuk\auth\interfaces\IEvents;
+use vlassiuk\auth\interfaces\IProfile;
 
 /**
  * Description of Auth
